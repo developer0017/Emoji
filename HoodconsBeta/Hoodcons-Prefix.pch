@@ -1,0 +1,31 @@
+//
+// Prefix header for all source files of the 'FaceBoardDome' target in the 'FaceBoardDome' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+
+#define GRUB_IAP @"com.hoodcons.grub"
+#define DRUG_IAP @"com.hoodcons.drugs"
+#define CAR_IAP @"com.hoodcons.cars"
+#define WEAPON_IAP @"com.hoodcons.weapons"
+#define PLACE_IAP @"com.hoodcons.places"
+#define HAND_IAP @"com.hoodcons.hands"
+#define FACE_IAP @"com.hoodcons.faces"
+#define MUSIC_IAP @"com.hoodcons.music"
+#define ANIMAL_IAP @"com.hoodcons.animal"
+#define GEAR_IAP @"com.hoodcons.gear"
+#define ART_IAP @"com.hoodcons.art"
+#define SLAG_IAP @"com.hoodcons.slang"
+
+#define IAPNOTIFICATION @"iapnotification"
+#define IAPRESTORENOTIFICATION @"iaprestorenotification"
+#endif
